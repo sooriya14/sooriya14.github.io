@@ -16,7 +16,7 @@ minimal: false
 navigation:
   - {file: "index.html", title: "Home"}
   - {file: "archive.html", title: "Projects"}
-  - {file: "resume.html", title: "Resume"}
+  - {file: "resume.html", title: "Work Experience"}
 
 external:
   - {title: Mail, icon: envelope, url: "mailto:ssenthil39@gatech.edu"}
