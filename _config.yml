@@ -1,32 +1,28 @@
-title: "Sooriya"
-author: "Home"
-description: "Home"
+title: "Sooriya Senthilkumar"
+author: "Sooriya Senthilkumar"
+description: "Georgia Tech CS Student | FinTech Enthusiast | Aspiring Software Engineer"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-# Layout
 
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+minimal: false
 
-# Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+navigation:
+  - {file: "index.html", title: "Home"}
+  - {file: "archive.html", title: "Projects"}
+  - {file: "resume.html", title: "Resume"}
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+external:
   - {title: Mail, icon: envelope, url: "mailto:ssenthil39@gatech.edu"}
-  - {title: Github, icon: github, url: "https://sooriya14.github.io/"}
+  - {title: Github, icon: github, url: "https://github.com/sooriya14"}
+  - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/sooriya-s"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
 
 plugins:
  - jekyll-feed
