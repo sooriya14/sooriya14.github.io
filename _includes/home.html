@@ -1,16 +1,36 @@
-{%- assign posts = paginator.posts | default: site.posts -%}
-{% for post in posts %}
-  <article>
-    {% include meta.html post=post preview=true %}
-    {{ post.excerpt }}
-    <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
-  </article>
-{% endfor %}
+<article>
+  <header><h1>Sooriya Senthilkumar</h1></header>
+  <p><strong>Email:</strong> ssenthil39@gatech.edu | 
+     <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sooriya-s">sooriya-s</a> | 
+     <strong>GitHub:</strong> <a href="https://github.com/sooriya14">sooriya14</a>
+  </p>
 
-{% if paginator.total_pages > 1 %}
-  <footer>
-    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">« newer posts</a>{% else %}<span></span>{% endif %}
-    <span>page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">older posts »</a>{% else %}<span></span>{% endif %}
-  </footer>
-{% endif %}
+  <h2>Education</h2>
+  <p><strong>Georgia Institute of Technology</strong> — B.S. in Computer Science (Minor: FinTech)<br>
+  Expected May 2026 | Atlanta, GA</p>
+  <ul>
+    <li>Relevant Coursework: OOP (Java), Data Structures, Machine Learning, AI, DB Systems</li>
+  </ul>
+
+  <h2>Experience</h2>
+  <ul>
+    <li><strong>Societe Generale</strong> — Incoming Software Engineer Intern (Summer 2025)</li>
+    <li><strong>Georgia Tech CS Dept.</strong> — TA for CS 2200 Systems & Networks (Aug 2024 – Present)</li>
+    <li><strong>Infor</strong> — Software Dev Intern (Summer 2024)</li>
+    <li><strong>GT Financial Services Lab</strong> — Undergraduate Researcher (Aug 2023 – May 2024)</li>
+  </ul>
+
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>Predicting Class Action Outcomes</strong> — Sentiment analysis on SEC filings</li>
+    <li><strong>Airplane Management System</strong> — Java project using GRASP & SOLID patterns</li>
+  </ul>
+
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Languages:</strong> Java, Python, C, C#, SQL, JavaScript</li>
+    <li><strong>Libraries:</strong> pandas, sklearn, OpenCV, matplotlib, seaborn</li>
+    <li><strong>Tools:</strong> GitLab, Spring Boot, Testcontainers, Jira</li>
+    <li><strong>Methodologies:</strong> Agile, Scrum, Unified Process</li>
+  </ul>
+</article>
